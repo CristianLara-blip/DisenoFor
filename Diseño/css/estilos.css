@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:ital,wght@1,400;1,500;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 1325spx;
+    height: 668px;
+    background-color: aqua;
+}
+
+.encabezado{
+    height: 12%;
+    background-color: rgb(216, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+.contenido{
+    height: 76%;
+    background-image: url(/images/Fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pie{
+    height: 12%;
+    background-color: rgb(216, 31, 31);
+}
+
+.imagen{
+    height: 90%;
+    width: 38%;
+    background-image: url(/images/Logo-Registro.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0.5em;
+    margin-top: 2em;
+}
+
+.login{
+    height: 90%;
+    width: 55%;
+    background-color: rgb(80, 255, 118);
+    float: right;
+    margin-top: 1.5em;
+    margin-right: 1.5em; 
+}
+
+.logo{
+    height: 100%;
+    width: 30%;
+    background-image: url(/images/Logo.PNG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.caja1{
+    height: 20%;
+    background-color: rgb(216, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+.caja-titulo{
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+}
+
+.caja{
+    width: 60%;
+    height: 45px;
+    border: 2px solid  rgb(95, 89, 89);
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.boton{
+    width: 400px;
+    height: 50px;
+    border: 1px solid  rgb(153, 152, 152);
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(216, 31, 31);
+    /*color: white;*/ 
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.logoD{
+    height: 60%;
+    width: 16%;
+    background-image: url(/images/ministerio-D.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 1em;
+}
+
+.logoT{
+    height: 60%;
+    width: 16%;
+    background-image: url(/images/ministerio-T.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 1em;
+}
+
+.reniec{
+    height: 72%;
+    width: 16%;
+    background-image: url(/images/reniec.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 0.5em;
+    margin-right: 1.5%;
+}
+
+.pregu1{
+    height: 60%;
+    width: 15%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*background-color: aqua;*/
+    float: left;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregu2{
+    height: 60%;
+    width: 15%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 1em;
+    /*ackground-color: blueviolet;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
